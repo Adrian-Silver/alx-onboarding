@@ -1,0 +1,18 @@
+﻿# To develop an algorithm that
+# reads in three numbers and writes them all in sorted order
+
+
+
+
+Enter num1
+Enter num2
+Enter num3
+
+
+arr = [num1, num2, num3]
+
+
+arr.sort_values()
+
+
+print(arr)

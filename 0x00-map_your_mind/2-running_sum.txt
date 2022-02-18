@@ -1,0 +1,23 @@
+﻿# To develop an algorithm that calculates a running sum
+
+
+# A user will enter numbers that will be added to the sum and when a negative 
+#number is encountered, stop adding numbers and write out the final result
+
+
+# Enter the first number
+# Let the sum start as 0
+# IF the num is >= 0,
+    # Add num to sum
+     # Enter another number
+# Else print sum
+
+
+input int num
+int sum
+sum = 0
+if num>= 0 Then
+     sum = sum + num
+     input num
+Else
+     print sum
